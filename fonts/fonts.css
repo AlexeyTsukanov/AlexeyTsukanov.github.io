@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'oswald_regular';
+	src: url('Oswald-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+			font-family: "GothamProRegular";
+			src: url("GothamProRegular/GothamProRegular.eot");
+			src: url("GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+			url("GothamProRegular/GothamProRegular.woff") format("woff"),
+			url("GothamProRegular/GothamProRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "GothamProBold";
+			src: url("GothamProBold/GothamProBold.eot");
+			src: url("GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
+			url("GothamProBold/GothamProBold.woff") format("woff"),
+			url("GothamProBold/GothamProBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
