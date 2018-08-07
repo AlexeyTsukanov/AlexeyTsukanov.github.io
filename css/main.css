@@ -659,3 +659,124 @@ footer{
 	opacity: 1 !important;
     color: blue !important;
 }
+
+
+@media (max-width: 1024px) and (min-width: 375px){
+	.figures{
+		max-width: 853px;
+		margin: 0 0 0 93px;
+	}
+
+	.menu {
+    margin: 40px 100px 0 0;
+	}
+	.logo {
+    margin: 20px 75px;
+		}
+	.titles {
+		padding-left: 11%;
+	}
+	#about_area{
+		padding: 0 0 0 35px;
+	}
+	#ascrail2000{
+		left: 431px;
+	}
+	.about2 img {
+    	    width: 225px;
+    height: 338px;   
+	}
+	.about3 img {
+    	    width: 225px;
+    height: 338px;
+}
+	.about3 {
+    float: left;
+    margin: 100px 0 0 24px;
+	}
+	.about2 {
+    margin: 100px 0 0 24px;
+	}
+	.sl__left {
+    width: 43%;
+}
+	.sl1 img, .sl2 img {
+    width: 100%;
+    height: 100%;
+}
+	.sl3 img {
+        width: 359px;
+    height: 525px;
+    padding: 0 0 0 12px;
+}
+	.sl3{
+		float: left;
+		height: 529px;
+	}
+	#galery{
+		padding: 0 0 0 9%;
+	}
+	.dop {
+    margin: 505px 106px;
+    height: 1272px;
+    width: 775px;
+}
+	.rectangle{
+		margin-left: 47%;
+	}
+	#offer{
+		padding: 0 0 0 9%;
+	}
+	.upper{
+		padding-left: 0;
+		    height: 340px;
+	}
+	.upper img {
+    height: 330px;
+}
+.offerrightimg{
+	width: 43% !important;
+}
+	.upper h3{
+		margin: 5px !important;
+	}
+	.down_text {
+    max-width: 386px;
+}
+.upper_text {
+    max-width: 403px;
+    padding-left: 380px;
+}
+.offer_bot {
+    padding-top: 24px;
+    margin-left: 34px;
+}
+	#blog{
+		padding: 0 0 0 9%;
+	}
+	.blog1 {
+    width: 78%;
+}
+	.blog_down img {
+    max-width: 232px;
+}
+.blog2 { 
+    max-width: 20%;
+}
+	.blog_right{
+		float: left;
+		    margin-left: 73px;
+	}
+	.blog2 a{
+		padding-left: 50px !important;
+	}
+	.contacts_line{
+		padding: 0 0 0 9%;
+	}
+	.c2 {
+    margin-left: 46px;
+}	
+#contacts{
+	height: 400px !important;
+}
+}
