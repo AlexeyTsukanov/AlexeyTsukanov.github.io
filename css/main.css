@@ -692,20 +692,17 @@ footer{
 	#ascrail2000{
 		left: 431px;
 	}
-	.about2 img {
-    	    width: 225px;
-    height: 338px;   
+	.about2 img, .about3 img {
+    	    width: 185px;
+    height: 308px;  
 	}
-	.about3 img {
-    	    width: 225px;
-    height: 338px;
 }
 	.about3 {
     float: left;
     margin: 100px 0 0 24px;
 	}
 	.about2 {
-    margin: 100px 0 0 24px;
+    margin: 100px 0 0 0;
 	}
 	.sl__left {
     width: 43%;
