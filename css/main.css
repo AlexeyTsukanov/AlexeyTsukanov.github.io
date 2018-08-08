@@ -297,6 +297,7 @@ section{
 #video{
 	background-color: #a8bfd1;
 	padding-top: 50px;
+	display: flex;
 }
 
 .video_block{
@@ -433,9 +434,15 @@ section{
 }
 
 .dop{
-	margin: 734px 400px;
-    height: 1473px;
-    width: 904px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 276%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 63%;
+    max-height: 154%;
 }
 
 #blog{
@@ -662,6 +669,9 @@ footer{
 
 
 @media (max-width: 1024px) and (min-width: 375px){
+	header{
+		height: 724px;
+	}
 	.figures{
 		max-width: 853px;
 		margin: 0 0 0 93px;
@@ -716,11 +726,11 @@ footer{
 	#galery{
 		padding: 0 0 0 9%;
 	}
-	.dop {
-    margin: 505px 106px;
-    height: 1272px;
-    width: 775px;
-}
+
+	.dop{
+		top: 2000px;;
+	}
+	
 	.rectangle{
 		margin-left: 47%;
 	}
@@ -735,7 +745,7 @@ footer{
     height: 330px;
 }
 .offerrightimg{
-	width: 43% !important;
+	width: 50% !important;
 }
 	.upper h3{
 		margin: 5px !important;
@@ -778,5 +788,9 @@ footer{
 }	
 #contacts{
 	height: 400px !important;
+}
+
+.container{
+	width: 100%
 }
 }
