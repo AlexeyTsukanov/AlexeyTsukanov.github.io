@@ -18,7 +18,7 @@ body{
 
 header{
 	background: url(../img/back1.jpg) no-repeat center top/cover;
-	height: 100vh;
+	height: 752px;
 }
 
 .logo{
@@ -185,8 +185,10 @@ nav{
 }
 
 .about2 img{
+	position: relative;
 	width: 300px;
 	height: 430px;
+	z-index: 999;
 }
 
 .about2{
@@ -437,7 +439,7 @@ section{
 	left: 0;
 	right: 0;
 	margin: auto;
-	top: 276%;
+	top: 250%;
     left: 0;
     right: 0;
     margin: auto;
@@ -687,7 +689,7 @@ footer{
 		padding-left: 11%;
 	}
 	#about_area{
-		padding: 0 0 0 35px;
+		padding: 0 0 0 9%;
 	}
 	#ascrail2000{
 		left: 431px;
@@ -696,13 +698,12 @@ footer{
     	    width: 185px;
     height: 308px;  
 	}
-}
 	.about3 {
     float: left;
     margin: 100px 0 0 24px;
 	}
 	.about2 {
-    margin: 100px 0 0 0;
+    margin: 100px 0 0 24px;
 	}
 	.sl__left {
     width: 43%;
@@ -713,8 +714,8 @@ footer{
 }
 	.sl3 img {
         width: 359px;
-    height: 525px;
-    padding: 0 0 0 12px;
+        height: 539px;
+    	padding: 0 0 0 12px;
 }
 	.sl3{
 		float: left;
@@ -790,4 +791,24 @@ footer{
 .container{
 	width: 100%
 }
+
+.blog1_text {
+    padding: 0 0 0 59px;
+}
+
+.blog1 img {
+    width: 108%;
+}
+
+}
+
+@media (max-width: 2570px) and (min-width: 2000px){
+	.dop{
+		top: 170%;
+    	max-width: 33%;
+	}
+
+	.rectangle {
+    margin: -86px 1283px;
+	}
 }
